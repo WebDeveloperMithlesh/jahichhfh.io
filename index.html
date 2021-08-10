@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Intershala Clone</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="brand"><img src="./img/new_internshala_logo.svg" alt="intershala-logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Internship</i></a>
+                    <a href="#" class="nav-link">Online Training <button id="offer">OFFER</button><i
+                            class="fa fa-caret-down"></i></a>
+                    <a href="#" class="nav-link">Fresher Job</a>
+                    <a href="#" class="nav-link"><button id="login">Login</button></a>
+                    <a href="#" class="nav-link"><button id="register">Register <i
+                                class="fa fa-caret-down"></i></button></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- search bar -->
+    <div class="search-box">
+        <form class="example" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="what are you looking for?" name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- slider -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/img_nature_wide.jpg" style="width:100%" , height="50%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/img_mountains_wide.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/img_lights_wide.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- INTERNSHIP -->
+    <div class="internship">
+        <div class="left">
+            <h2>Internships</h2>
+            <h3>Apply to 10,000+ internships for free </h3>
+        </div>
+        <div class="right">
+            <a href="#">view all internship <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <!-- POPULAR CITY -->
+    <h1>Popular City</h1>
+    <div class="row">
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Work from Home</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Mumbai</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Chennai</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Banglore</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Delhi</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Surat</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Patna</h2>
+        </div>
+        <div class="col">
+            <img src="./img/city1.png" alt="">
+            <h2>Kota</h2>
+        </div>
+    </div>
+    <!-- POPULAR CATEGORY -->
+    <h1>Popular Category</h1>
+    <div class="row">
+        <div class="col">
+            <img src="./img/s1.png" alt="">
+            <h2>part time</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s2.png" alt="">
+            <h2>Engineering</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s3.png" alt="">
+            <h2>MBA</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s1.png" alt="">
+            <h2>Coding</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s2.png" alt="">
+            <h2>Programming</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s1.png" alt="">
+            <h2>Design</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s2.png" alt="">
+            <h2>Science</h2>
+        </div>
+        <div class="col">
+            <img src="./img/s1.png" alt="">
+            <h2>NGO</h2>
+        </div>
+    </div>
+    <!-- SKILLS -->
+    <div class="skills">
+        <div class="left">
+            <h2>Internshala Trainings </h2>
+            <h3>Learn new-age skills on the go </h3>
+        </div>
+        <div class="right">
+            <a href="#">view all internship <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./img/l1.png" alt="">
+            <h2>Programming with python</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l2.png" alt="">
+            <h2>Digital Marketing</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l3.png" alt="">
+            <h2>Web development</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l4.png" alt="">
+            <h2>Machine Learning</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l5.png" alt="">
+            <h2>Advance EXCEL</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l6.png" alt="">
+            <h2>Ethical Hacking</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l7.png" alt="">
+            <h2>AutoCAD</h2>
+        </div>
+        <div class="col">
+            <img src="./img/l8.png" alt="">
+            <h2>Creative content</h2>
+        </div>
+    </div>
+    <!-- FRESHER JOBS -->
+    <div class="skills">
+        <div class="left">
+            <h2>Fresher Jobs <button>NEW</button> </h2>
+            <h3>Learn new-age skills on the go </h3>
+        </div>
+        <div class="right">
+            <a href="#">view all Jobs <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="row-skills">
+        <div class="col-skills">
+            <img src="./img/c1.png" alt="">
+            <h2>Minimum CTC of 3 LPA</h2>
+        </div>
+        <div class="col-skills">
+            <img src="./img/c2.png" alt="">
+            <h2>Dream companies</h2>
+        </div>
+        <div class="col-skills">
+            <img src="./img/c3.png" alt="">
+            <h2>100% verified jobs</h2>
+        </div>
+        <!-- FOOTER SECTION -->
+        <section class="footer">
+            <div class="row-footer">
+                <div class="col-footer">
+                    <h3>companies By location</h3>
+                    <ul class="footer-list">
+                        <li class="footer-manu">
+                            <a href="#" id="footer-nav">Internship in India</a>
+                            <a href="#" id="footer-nav">Internship in Delhi</a>
+                            <a href="#" id="footer-nav">Internship in Bangalore</a>
+                            <a href="#" id="footer-nav">Internship in Hyderabad</a>
+                            <a href="#" id="footer-nav">Internship in Mumbai</a>
+                            <a href="#" id="footer-nav">Internship in Chennai</a>
+                            <a href="#" id="footer-nav">Internship in Gurgaon</a>
+                            <a href="#" id="footer-nav">Internship in Kolkata</a>
+                            <a href="#" id="footer-nav">Virtual internship</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Internship by stream</h3>
+                    <ul class="footer-list">
+                        <li class="footer-manu">
+                            <a href="#" id="footer-nav">Computer Science Internship</a>
+                            <a href="#" id="footer-nav">Electronics Internship</a>
+                            <a href="#" id="footer-nav">Mechanical Internship</a>
+                            <a href="#" id="footer-nav">Civil Internship</a>
+                            <a href="#" id="footer-nav">Marketing Internship</a>
+                            <a href="#" id="footer-nav">Chemical Internship</a>
+                            <a href="#" id="footer-nav">Finance Internship</a>
+                            <a href="#" id="footer-nav">Summer Research Fellowship</a>
+                            <a href="#" id="footer-nav">Campus Ambassador Program</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>Online Training <button>OFFER</button></h3>
+                    <ul class="footer-list">
+                        <li class="footer-manu">
+                            <a href="#" id="footer-nav">Programming with Python</a>
+                            <a href="#" id="footer-nav">Digital Marketing</a>
+                            <a href="#" id="footer-nav">Web Development</a>
+                            <a href="#" id="footer-nav">Machine Learning</a>
+                            <a href="#" id="footer-nav">Advanced Excel</a>
+                            <a href="#" id="footer-nav">Ethical Hacking</a>
+                            <a href="#" id="footer-nav">AutoCAD</a>
+                            <a href="#" id="footer-nav">Creative Writing</a>
+                            <a href="#" id="footer-nav">Data Science</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h3>About Internshala</h3>
+                    <ul class="footer-list">
+                        <li class="footer-manu">
+                            <a href="#" id="footer-nav">About us</a>
+                            <a href="#" id="footer-nav">We're hiring</a>
+                            <a href="#" id="footer-nav">Hire interns for your company</a>
+                            <a href="#" id="footer-nav">Team Diary</a>
+                            <a href="#" id="footer-nav">Blog</a>
+                            <a href="#" id="footer-nav">Our Services</a>
+                            <a href="#" id="footer-nav">Terms & Conditions</a>
+                            <a href="#" id="footer-nav">Privacy</a>
+                            <a href="#" id="footer-nav">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- bottom Footer -->
+        <hr>
+        <div class="bottom">
+            <div class="left-bottom">
+                <button><i class="fa fa-play"></i> Get Android APPS</button>
+                <i class="fa fa-instagram"></i>  
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-linkedin"></i> 
+            </div>
+            <div class="right-bottom">
+                <p>&copy; Copyright 2021 Internshala</p>
+            </div>
+        </div>
+        <!-- SCRIPT -->
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
